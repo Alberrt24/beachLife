@@ -1,0 +1,70 @@
+html{
+  height:100%
+}
+body{
+  height:100%;
+  background: url(/assets/poortada.jpg) center center no-repeat;
+  background-size:cover;
+  display:flex;
+  justify-content:right;
+  align-items:center;
+  font-family:sans-serif;
+  margin:0;
+  overflow:hidden
+}
+#brand{  
+  text-align:center;
+  cursor:pointer;
+}
+#brand img{
+  display:block;
+  width:80vw;
+  max-width:700px;
+  height:auto;
+  transition:0.2s
+}
+#brand a{
+  display:block;
+  font-family: 'Passion One';
+  font-size:3em;
+  color:#333;
+  font-weight:800;
+  text-decoration:none;
+  background:rgba(0,0,40,0);
+  padding:5px 15px;
+  transition:0.4s
+}
+#brand:hover a{  
+  color:rgba(200,80,50,1);
+  text-shadow:2px 5px 0 rgba(0,0,0,0.6)
+}
+
+.btn{
+  cursor:pointer;
+  padding: 15px;
+  margin: 5rem 0rem;
+}
+
+/* follow me @nodws */
+.btn-game{
+  border:5px solid;
+  border-radius:12px;
+  cursor:pointer;
+  display:inline-block;
+  padding:5px 10px;
+  width: 16rem;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:600;
+  background:#735fa6;
+  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+  opacity:0.8;
+}.btn-game:hover{color:#db9571;}
+
+.instList{
+  text-align:left;
+  font-size: 2rem;
+  color: #fff;
+}
