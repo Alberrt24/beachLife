@@ -3,7 +3,7 @@ html{
 }
 body{
   height:100%;
-  background: url(/assets/poortada.jpg) center center no-repeat;
+  background: url(../assets/poortada.jpg) center center no-repeat;
   background-size:cover;
   display:flex;
   justify-content:right;
